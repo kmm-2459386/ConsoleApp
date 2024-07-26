@@ -39,18 +39,18 @@ int MinOfArray(int array[], int arraySize)
 {
     if (arraySize <= 0) {
         printf("配列のサイズが0以下です\n");
-        return INT_MAX; // エラー時には INT_MAX を返す
+        return INT_MAX;
     }
 
-    int min = array[0]; // 最初の要素を初期最小値とする
+    int min = array[0]; 
 
     for (int i = 1; i < arraySize; ++i) {
         if (array[i] < min) {
-            min = array[i]; // より小さい値が見つかれば更新する
+            min = array[i]; 
         }
     }
 
-    return min; // 最小値を返す
+    return min; 
 }
 
 int randRange(int min, int max)
