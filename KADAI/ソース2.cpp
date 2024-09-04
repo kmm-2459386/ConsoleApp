@@ -16,7 +16,7 @@ int main()
 
 	do {
 		printf("l”:");
-		scanf("%d", &number);
+		scanf_s("%d", &number);
 	} while (number <= 0);
 
 	int* height = (int*)calloc(number, sizeof(int));
