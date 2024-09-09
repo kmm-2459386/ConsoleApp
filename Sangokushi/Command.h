@@ -1,15 +1,15 @@
-#pragma once
+ï»¿#pragma once
 //======================================
-//	O‘u  ƒRƒ}ƒ“ƒh
+//	ä¸‰å›½å¿—  ã‚³ãƒãƒ³ãƒ‰
 //======================================
 #ifndef __COMMAND_H
 #define __COMMAND_H
 
-// •]’è‚ÌŒ‹‰Ê
+// è©•å®šã®çµæœ
 typedef enum {
-	CMD_Cancel,     // ‚È‚É‚à‚µ‚È‚¢
-	CMD_Attack,     // UŒ‚
-	CMD_Transit,    // ˆÚ‘—
+	CMD_Cancel,     // ãªã«ã‚‚ã—ãªã„
+	CMD_Attack,     // æ”»æ’ƒ
+	CMD_Transit,    // ç§»é€
 } Command;
 
 #endif //  __COMMAND_H

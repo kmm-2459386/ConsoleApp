@@ -1,6 +1,6 @@
-#pragma once
+ï»¿#pragma once
 //======================================
-//	O‘u  AI
+//	ä¸‰å›½å¿—  AI
 //======================================
 #ifndef __AI_H
 #define __AI_H
@@ -8,7 +8,7 @@
 #include "Castle.h"
 #include "Command.h"
 
-// NPCƒ^[ƒ“‚Ì“ü—Í(vl)
+// NPCã‚¿ãƒ¼ãƒ³ã®å…¥åŠ›(æ€è€ƒ)
 Command InputNpcTurn(Stage* stage, Castle* castle, CastleId* outTarget, int* outTroopCount);
 
 #endif //  __AI_H

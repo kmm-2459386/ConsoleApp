@@ -1,6 +1,6 @@
-#pragma once
+ï»¿#pragma once
 //======================================
-//	O‘u  UI
+//	ä¸‰å›½å¿—  UI
 //======================================
 #ifndef __UI_H
 #define __UI_H
@@ -8,9 +8,9 @@
 #include "Castle.h"
 #include "Command.h"
 
-// ƒvƒŒ[ƒ„‚Ìé‚ğ“ü—Í‚³‚¹‚é
+// ãƒ—ãƒ¬ãƒ¼ãƒ¤ã®åŸã‚’å…¥åŠ›ã•ã›ã‚‹
 CastleId InputPlayerCastle(Stage* stage);
-// ƒvƒŒ[ƒ„ƒ^[ƒ“‚ğ“ü—Í‚³‚¹‚é
+// ãƒ—ãƒ¬ãƒ¼ãƒ¤ã‚¿ãƒ¼ãƒ³ã‚’å…¥åŠ›ã•ã›ã‚‹
 Command InputPlayerTurn(Stage* stage, Castle* castle, CastleId* outTarget, int* sendTroopCount);
 
 #endif // __UI_H
