@@ -9,8 +9,9 @@ static bool isInShapePattern(int x, int y);
 // 形状テーブル
 const BlockShape blockShapes[] = {
 	{   // I字型
-		3,
+		4,
 		{
+			{0,1,0},
 			{0,1,0},
 			{0,1,0},
 			{0,1,0},
@@ -20,6 +21,46 @@ const BlockShape blockShapes[] = {
 		3,
 		{
 			{0,1,0},
+			{0,1,0},
+			{0,1,1},
+		}
+	},
+	{   // O字型
+		3,
+		{
+			{0,0,0},
+			{0,1,1},
+			{0,1,1},
+		}
+	},
+	{   // L字型
+		3,
+		{
+			{0,1,0},
+			{0,1,0},
+			{0,1,1},
+		}
+	},
+	{   // J字型
+		3,
+		{
+			{0,1,0},
+			{0,1,0},
+			{1,1,0},
+		}
+	},
+	{   // S字型
+		3,
+		{
+			{0,1,1},
+			{1,1,0},
+			{0,0,0},
+		}
+	},
+	{   // Z字型
+		3,
+		{
+			{1,1,0},
 			{0,1,1},
 			{0,0,0},
 		}
@@ -68,7 +109,7 @@ void SetShapePattern(BlockShape* shape, int x, int y, bool value)
 {
 	//
 	// ★ここをコーディングしてください
-	// isInShapePattern()を確認して、shapeのpqtternの(x,y)へvalueを書き込みます
+	// isInShapePattern()を確認して、shap7eのpqtternの(x,y)へvalueを書き込みます
 	// isInShapePattern()外なら、なにもしません
 	if (isInShapePattern(x, y)) {
 		shape->pattern[y][x] = value;
